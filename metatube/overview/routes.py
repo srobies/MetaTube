@@ -13,7 +13,7 @@ from metatube import Config as env
 from flask import render_template
 from datetime import datetime
 from dateutil import parser
-from distutils.util import strtobool
+from metatube.utils import strtobool
 from shutil import move
 from tempfile import mkdtemp
 from zipfile import ZipFile
