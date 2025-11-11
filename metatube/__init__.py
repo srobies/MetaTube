@@ -5,7 +5,7 @@ from flask.logging import default_handler
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_socketio import SocketIO
-from distutils.util import strtobool
+from metatube.utils import strtobool
 from config import Config
 
 import logging

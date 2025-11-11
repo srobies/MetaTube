@@ -3,7 +3,7 @@
 # coding: utf-8
 from metatube import create_app, socketio
 from gevent import get_hub
-from distutils.util import strtobool
+from metatube.utils import strtobool
 import os
 if __name__ == "__main__":
     app = create_app()
