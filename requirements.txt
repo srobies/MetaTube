@@ -16,7 +16,7 @@ pytest==8.3.5
 ffmpeg-python==0.2.0
 youtube-search-python @ git+https://github.com/srobies/youtube-search-python@e2328e3
 spotipy==2.25.1
-urllib3==2.5.0
+urllib3==2.6.2
 deezer-python==6.1.1
 lyricsgenius==3.0.1
 pillow==10.4.0
