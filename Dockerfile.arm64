@@ -1,4 +1,4 @@
-FROM arm64v8/python:3.9-alpine
+FROM arm64v8/python:3.14-alpine
 LABEL Author=JVT038 \
     Maintainer=JVT038 \
     Name=MetaTube
