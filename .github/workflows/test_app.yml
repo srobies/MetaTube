@@ -25,6 +25,7 @@ jobs:
       with:
         path: |
           ~/.cache/pip
+        key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
     - uses: actions/checkout@v3
     - name: Set up Python
       uses: actions/setup-python@v3
