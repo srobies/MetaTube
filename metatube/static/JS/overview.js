@@ -1312,6 +1312,10 @@ $(document).ready(function() {
     });
 
     $("#nextbtn").on('click', function() {
+        let title = document.getElementById('thumbnail_yt').alt.toLowerCase()
+        if (title.includes('official audio') || title.includes('lyrics')) {
+            document.getElementById('segments_check').checked = true;
+        }
         if($(".timestamp_input").val() == '' && !$("#segments_check").is(':checked')) {
             $("#downloadmodal").animate({ scrollTop: 0 }, 'fast');
             $("#searchlog").text('Enter all segment fields or disable the segments');

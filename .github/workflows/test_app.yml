@@ -20,9 +20,15 @@ jobs:
       run:
         working-directory: ./
     steps:
+    - name: Cache pip packages
+      uses: actions/cache@v4
+      with:
+        path: |
+          ~/.cache/pip
+        key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
     - uses: actions/checkout@v3
     - name: Set up Python
-      uses: actions/setup-python@v3
+      uses: actions/setup-python@v6
       with:
         python-version: "3.12"
         cache: 'pip' 
