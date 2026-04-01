@@ -19,5 +19,5 @@ spotipy==2.26.0
 urllib3==2.6.3
 deezer-python==7.2.0
 lyricsgenius==3.10.0
-pillow==12.1.0
+pillow==12.2.0
 httpx==0.28.1
