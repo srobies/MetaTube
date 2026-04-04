@@ -1,5 +1,5 @@
 mutagen==1.47.0
-requests==2.32.5
+requests==2.33.1
 yt-dlp==2026.3.17
 gevent==25.9.1
 gevent-websocket==0.10.1
